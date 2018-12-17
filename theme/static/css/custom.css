@@ -1,0 +1,7 @@
+.floating-label-form-group .help-block {
+    display: none;
+}
+
+.floating-label-form-group input, .floating-label-form-group textarea {
+    width: 100%;
+}
