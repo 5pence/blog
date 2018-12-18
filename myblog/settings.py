@@ -247,6 +247,7 @@ INSTALLED_APPS = (
     "mezzanine.twitter",
     # "mezzanine.accounts",
     "storages",
+    "filebrowser_s3"
 
 )
 
@@ -354,3 +355,5 @@ STATICFILES_LOCATION = 'static'
 STATICFILES_STORAGE = 'custom_storages.StaticStorage'
 
 MEDIAFILES_LOCATION = 'media'
+DEFAULT_FILE_STORAGE = 'filebrowser_s3.storage.S3MediaStorage'
+AWS_LOCATION = FILEBROWSER_DIRECTORY = '/uploads/'
