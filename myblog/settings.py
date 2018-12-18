@@ -356,5 +356,3 @@ STATICFILES_STORAGE = 'custom_storages.StaticStorage'
 
 MEDIAFILES_LOCATION = 'media'
 DEFAULT_FILE_STORAGE = 'filebrowser_s3.storage.S3MediaStorage'
-AWS_LOCATION = FILEBROWSER_DIRECTORY = '/uploads/'
-URL_FILEBROWSER_MEDIA = 'https://the-magic-bucket-2.s3.amazonaws.com/static/filebrowser/'
