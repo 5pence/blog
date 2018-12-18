@@ -1,0 +1,1471 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$hUZ4KBmydBRw$uXH3eJ/0cPqn1muEgjMViT60u9tMfs60lnKVJ6KuXs8=",
+        "last_login": "2018-12-17T21:08:03.911Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "sbarriball@me.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-12-16T12:00:57.461Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3v0fl0lyde201vbtna2kb88m5mf1jltu",
+    "fields": {
+        "session_data": "NjZkYzY0YmI0MDQ5YmZjYzM3NDM5NTdlYmEyOWQ4ZmZhYWNlZjcyNzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoibWV6emFuaW5lLmNvcmUuYXV0aF9iYWNrZW5kcy5NZXp6YW5pbmVCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiODk3MDBlY2Y4NGI4ZTc5Y2JhYWRkOGQ2Y2Q3OTZkYTQ3NDVlYjU2ZCJ9",
+        "expire_date": "2018-12-30T12:11:14.018Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "umu4733gwrdfzlrvyr5yzaibh1qcku1z",
+    "fields": {
+        "session_data": "NjZkYzY0YmI0MDQ5YmZjYzM3NDM5NTdlYmEyOWQ4ZmZhYWNlZjcyNzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoibWV6emFuaW5lLmNvcmUuYXV0aF9iYWNrZW5kcy5NZXp6YW5pbmVCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiODk3MDBlY2Y4NGI4ZTc5Y2JhYWRkOGQ2Y2Q3OTZkYTQ3NDVlYjU2ZCJ9",
+        "expire_date": "2018-12-31T21:08:03.955Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "127.0.0.1:8000",
+        "name": "Default"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 1,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "ADMIN_MENU_COLLAPSED",
+        "value": "False"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 2,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "AKISMET_API_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 3,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "BITLY_ACCESS_TOKEN",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 4,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "BLOG_POST_PER_PAGE",
+        "value": "3"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 5,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_ACCOUNT_REQUIRED",
+        "value": "False"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 6,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_DEFAULT_APPROVED",
+        "value": "True"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 7,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_DISQUS_API_PUBLIC_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 8,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_DISQUS_API_SECRET_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 9,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_DISQUS_SHORTNAME",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 10,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_NOTIFICATION_EMAILS",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 11,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_NUM_LATEST",
+        "value": "5"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 12,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_REMOVED_VISIBLE",
+        "value": "True"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 13,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_UNAPPROVED_VISIBLE",
+        "value": "True"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 14,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "GOOGLE_ANALYTICS_ID",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 15,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "MAX_PAGING_LINKS",
+        "value": "10"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 16,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "RATINGS_ACCOUNT_REQUIRED",
+        "value": "False"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 17,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "RICHTEXT_FILTER_LEVEL",
+        "value": "1"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 18,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "SEARCH_PER_PAGE",
+        "value": "10"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 19,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "SITE_TAGLINE",
+        "value": "An open source content management platform."
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 20,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "SITE_TITLE",
+        "value": "Mezzanine"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 21,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TAG_CLOUD_SIZES",
+        "value": "4"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 22,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_ACCESS_TOKEN_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 23,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_ACCESS_TOKEN_SECRET",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 24,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_CONSUMER_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 25,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_CONSUMER_SECRET",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 26,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_DEFAULT_NUM_TWEETS",
+        "value": "3"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 27,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_DEFAULT_QUERY",
+        "value": "from:stephen_mcd mezzanine"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 28,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_DEFAULT_QUERY_TYPE",
+        "value": "search"
+    }
+},
+{
+    "model": "pages.page",
+    "pk": 2,
+    "fields": {
+        "keywords_string": "",
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "Home",
+        "slug": "/",
+        "_meta_title": null,
+        "description": "Latest Posts:",
+        "gen_description": true,
+        "created": "2018-12-16T19:26:14.332Z",
+        "updated": "2018-12-17T00:26:56.685Z",
+        "status": 2,
+        "publish_date": "2018-12-16T19:26:13Z",
+        "expiry_date": null,
+        "short_url": null,
+        "in_sitemap": true,
+        "_order": 0,
+        "content_model": "richtextpage",
+        "parent": null,
+        "in_menus": "1",
+        "titles": "Home",
+        "login_required": false
+    }
+},
+{
+    "model": "pages.page",
+    "pk": 3,
+    "fields": {
+        "keywords_string": "",
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "About",
+        "slug": "about",
+        "_meta_title": null,
+        "description": "This is the about page",
+        "gen_description": true,
+        "created": "2018-12-16T19:38:04.957Z",
+        "updated": "2018-12-16T19:38:12.878Z",
+        "status": 2,
+        "publish_date": "2018-12-16T19:37:56Z",
+        "expiry_date": null,
+        "short_url": null,
+        "in_sitemap": true,
+        "_order": 1,
+        "content_model": "richtextpage",
+        "parent": null,
+        "in_menus": "1",
+        "titles": "About",
+        "login_required": false
+    }
+},
+{
+    "model": "pages.page",
+    "pk": 4,
+    "fields": {
+        "keywords_string": "",
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "Contact",
+        "slug": "contact",
+        "_meta_title": null,
+        "description": "If you want to get in touch then fill the form below",
+        "gen_description": true,
+        "created": "2018-12-16T20:40:54.236Z",
+        "updated": "2018-12-17T11:53:17.622Z",
+        "status": 2,
+        "publish_date": "2018-12-16T20:34:27Z",
+        "expiry_date": null,
+        "short_url": null,
+        "in_sitemap": true,
+        "_order": 2,
+        "content_model": "form",
+        "parent": null,
+        "in_menus": "1",
+        "titles": "Contact",
+        "login_required": false
+    }
+},
+{
+    "model": "pages.richtextpage",
+    "pk": 3,
+    "fields": {
+        "content": "<p>This is the about page</p>"
+    }
+},
+{
+    "model": "pages.richtextpage",
+    "pk": 2,
+    "fields": {
+        "content": "<p>Latest Posts:</p>"
+    }
+},
+{
+    "model": "blog.blogpost",
+    "pk": 1,
+    "fields": {
+        "retina": "uploads/blog/mountainRiver2x.jpg",
+        "comments_count": 0,
+        "keywords_string": "",
+        "rating_count": 0,
+        "rating_sum": 0,
+        "rating_average": 0.0,
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "Regex Cheat Sheet",
+        "slug": "regex-cheat-sheet",
+        "_meta_title": null,
+        "description": "",
+        "gen_description": true,
+        "created": "2018-12-16T19:23:23.084Z",
+        "updated": "2018-12-17T20:24:41.981Z",
+        "status": 2,
+        "publish_date": "2018-11-16T19:22:31Z",
+        "expiry_date": null,
+        "short_url": "unset",
+        "in_sitemap": true,
+        "content": "<h1></h1>\n<div class=\"section\" id=\"regex-syntax\">\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id1\"><caption><span class=\"caption-text\">Characters</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id1\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"20%\"><col width=\"80%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">Character</th>\n<th class=\"head\">Matches</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">a</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">a</span></code><span>&nbsp;</span>character</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">.</span></code></td>\n<td>Any character (except newline)</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">\\.</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">.</span></code><span>&nbsp;</span>character</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">\\\\</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">\\</span></code><span>&nbsp;</span>character</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">\\*</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">*</span></code><span>&nbsp;</span>character</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id2\"><caption><span class=\"caption-text\">Character Classes</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id2\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"20%\"><col width=\"40%\"><col width=\"40%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">&nbsp;</th>\n<th class=\"head\">Matches</th>\n<th class=\"head\">Description</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">[abcd]</span></code></td>\n<td>Any one of the letters<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">a</span></code><span>&nbsp;</span>through<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">d</span></code></td>\n<td>Set of characters</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">[^abcd]</span></code></td>\n<td>Any character but<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">a</span></code>,<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">b</span></code>,<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">c</span></code>, or<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">d</span></code></td>\n<td>Complement of a set of characters</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">[a-d]</span></code></td>\n<td>Any one of the letters<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">a</span></code><span>&nbsp;</span>through<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">d</span></code></td>\n<td>Range of characters</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">[a-dz]</span></code></td>\n<td>Any of<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">a</span></code>,<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">b</span></code>,<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">c</span></code>,<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">d</span></code>, or<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">z</span></code></td>\n<td>Range of characters</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id3\"><caption><span class=\"caption-text\">Special Sequences</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id3\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"30%\"><col width=\"10%\"><col width=\"20%\"><col width=\"40%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head stub\">Type</th>\n<th class=\"head\">Expression</th>\n<th class=\"head\">Equivalent To</th>\n<th class=\"head\">Description</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<th class=\"stub\">Word Character</th>\n<td><code class=\"docutils literal\"><span class=\"pre\">\\w</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">[a-zA-Z0-9_]</span></code></td>\n<td>Alphanumeric or underscore</td>\n</tr>\n<tr class=\"row-odd\">\n<th class=\"stub\">Non-word Character</th>\n<td><code class=\"docutils literal\"><span class=\"pre\">\\W</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">[^a-zA-Z0-9_]</span></code></td>\n<td>Anything but a word character</td>\n</tr>\n<tr class=\"row-even\">\n<th class=\"stub\">Digit Character</th>\n<td><code class=\"docutils literal\"><span class=\"pre\">\\d</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">[0-9]</span></code></td>\n<td>Numeric</td>\n</tr>\n<tr class=\"row-odd\">\n<th class=\"stub\">Non-digit Character</th>\n<td><code class=\"docutils literal\"><span class=\"pre\">\\D</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">[^0-9]</span></code></td>\n<td>Non-numeric</td>\n</tr>\n<tr class=\"row-even\">\n<th class=\"stub\">Whitespace Character</th>\n<td><code class=\"docutils literal\"><span class=\"pre\">\\s</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">[</span><span>&nbsp;</span><span class=\"pre\">\\t\\n\\r\\f\\v]</span></code></td>\n<td>Whitespace</td>\n</tr>\n<tr class=\"row-odd\">\n<th class=\"stub\">Non-whitespace Character</th>\n<td><code class=\"docutils literal\"><span class=\"pre\">\\S</span></code></td>\n<td><code class=\"docutils literal\"><span class=\"pre\">[^</span><span>&nbsp;</span><span class=\"pre\">\\t\\n\\r\\f\\v]</span></code></td>\n<td>Anything but a whitespace character</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id4\"><caption><span class=\"caption-text\">Anchors</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id4\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"20%\"><col width=\"80%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">Anchor</th>\n<th class=\"head\">Matches</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">^</span></code></td>\n<td>Start of the string</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">$</span></code></td>\n<td>End of the string</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">\\b</span></code></td>\n<td>Boundary between word and non-word characters</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id5\"><caption><span class=\"caption-text\">Groups</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id5\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"60%\"><col width=\"40%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">Group Type</th>\n<th class=\"head\">Expression</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td>Capturing</td>\n<td><code class=\"docutils literal\"><span class=\"pre\">(</span></code><span>&nbsp;</span>...<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">)</span></code></td>\n</tr>\n<tr class=\"row-odd\">\n<td>Non-capturing</td>\n<td><code class=\"docutils literal\"><span class=\"pre\">(?:</span></code><span>&nbsp;</span>...<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">)</span></code></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id6\"><caption><span class=\"caption-text\">Quantifiers/Repetition</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id6\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"20%\"><col width=\"80%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">Quantifier</th>\n<th class=\"head\">Modification</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{5}</span></code></td>\n<td>Match expression exactly 5 times</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{2,5}</span></code></td>\n<td>Match expression 2 to 5 times</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{2,}</span></code></td>\n<td>Match expression 2 or more times</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{,5}</span></code></td>\n<td>Match expression 0 to 5 times</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">*</span></code></td>\n<td>Match expression 0 or more times</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{,}</span></code></td>\n<td>Match expression 0 or more times</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">?</span></code></td>\n<td>Match expression 0 or 1 times</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{0,1}</span></code></td>\n<td>Match expression 0 or 1 times</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">+</span></code></td>\n<td>Match expression 1 or more times</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{1,}</span></code></td>\n<td>Match expression 1 or more times</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id7\"><caption><span class=\"caption-text\">Non-greedy quantifiers</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id7\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"20%\"><col width=\"80%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">Quantifier</th>\n<th class=\"head\">Modification</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{2,5}?</span></code></td>\n<td>Match 2 to 5 times (less preferred)</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{2,}?</span></code></td>\n<td>Match 2 or more times (less preferred)</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{,5}?</span></code></td>\n<td>Match 0 to 5 times (less preferred)</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">*?</span></code></td>\n<td>Match 0 or more times (less preferred)</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{,}?</span></code></td>\n<td>Match 0 or more times (less preferred)</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">??</span></code></td>\n<td>Match 0 or 1 times (less preferred)</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{0,1}?</span></code></td>\n<td>Match 0 or 1 times (less preferred)</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">+?</span></code></td>\n<td>Match 1 or more times (less preferred)</td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">{1,}?</span></code></td>\n<td>Match 1 or more times (less preferred)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id8\"><caption><span class=\"caption-text\">Alternators</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id8\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"20%\"><col width=\"80%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">Quantifier</th>\n<th class=\"head\">Modification</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">ABC|DEF</span></code></td>\n<td>Match string<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">ABC</span></code><span>&nbsp;</span>or string<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">DEF</span></code></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id9\"><caption><span class=\"caption-text\">Lookaround</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id9\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"10%\"><col width=\"90%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">Quantifier</th>\n<th class=\"head\">Modification</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">(?=abc)</span></code></td>\n<td>Zero-width match confirming<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">abc</span></code><span>&nbsp;</span>will match upcoming chars</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">(?!abc)</span></code></td>\n<td>Zero-width match confirming<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">abc</span></code><span>&nbsp;</span>will<span>&nbsp;</span><strong>not</strong><span>&nbsp;</span>match upcoming chars</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div class=\"section\" id=\"python\">\n<h2>Python</h2>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id10\"><caption><span class=\"caption-text\">functions</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id10\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"15%\"><col width=\"55%\"><col width=\"30%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">Function</th>\n<th class=\"head\">Purpose</th>\n<th class=\"head\">Usage</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">re.search</span></code></td>\n<td>Return a match object if pattern found in string</td>\n<td><code class=\"docutils literal\"><span class=\"pre\">re.search(r'[pat]tern',</span><span>&nbsp;</span><span class=\"pre\">'string')</span></code></td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">re.finditer</span></code></td>\n<td>Return an iterable of match objects (one for each match)</td>\n<td><code class=\"docutils literal\"><span class=\"pre\">re.finditer(r'[pat]tern',</span><span>&nbsp;</span><span class=\"pre\">'string')</span></code></td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">re.findall</span></code></td>\n<td>Return a list of all matched strings (different when capture groups)</td>\n<td><code class=\"docutils literal\"><span class=\"pre\">re.findall(r'[pat]tern',</span><span>&nbsp;</span><span class=\"pre\">'string')</span></code></td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">re.split</span></code></td>\n<td>Split string by regex delimeter &amp; return string list</td>\n<td><code class=\"docutils literal\"><span class=\"pre\">re.split(r'[</span><span>&nbsp;</span><span class=\"pre\">-]',</span><span>&nbsp;</span><span class=\"pre\">'st-ri</span><span>&nbsp;</span><span class=\"pre\">ng')</span></code></td>\n</tr>\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">re.compile</span></code></td>\n<td>Compile a regular expression pattern for later use</td>\n<td><code class=\"docutils literal\"><span class=\"pre\">re.compile(r'[pat]tern')</span></code></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"wy-table-responsive\">\n<table border=\"1\" class=\"docutils\" id=\"id11\"><caption><span class=\"caption-text\">flags</span><a class=\"headerlink\" href=\"https://pycon2016.regex.training/cheat-sheet#id11\" title=\"Permalink to this table\">&para;</a></caption><colgroup><col width=\"20%\"><col width=\"80%\"></colgroup>\n<thead valign=\"bottom\">\n<tr class=\"row-odd\">\n<th class=\"head\">Flag</th>\n<th class=\"head\">Description</th>\n</tr>\n</thead>\n<tbody valign=\"top\">\n<tr class=\"row-even\">\n<td><code class=\"docutils literal\"><span class=\"pre\">re.IGNORECASE</span></code></td>\n<td>Match uppercase and lowercase characters interchangeably</td>\n</tr>\n<tr class=\"row-odd\">\n<td><code class=\"docutils literal\"><span class=\"pre\">re.VERBOSE</span></code></td>\n<td>Ignore whitespace characters and allow<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">#</span></code><span>&nbsp;</span>comments</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>",
+        "user": [
+            "admin"
+        ],
+        "allow_comments": true,
+        "featured_image": "uploads/blog/mountainriver.jpg",
+        "categories": [],
+        "related_posts": []
+    }
+},
+{
+    "model": "blog.blogpost",
+    "pk": 2,
+    "fields": {
+        "retina": "uploads/blog/mountainYosemite2x.jpg",
+        "comments_count": 0,
+        "keywords_string": "",
+        "rating_count": 0,
+        "rating_sum": 0,
+        "rating_average": 0.0,
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "Deploying Django Mezzanine Using Fabric",
+        "slug": "deploying-django-mezzanine-using-fabric",
+        "_meta_title": null,
+        "description": "Deployment of a Mezzanine site to production is mostly identical to deploying a regular Django site. For serving static content, Mezzanine makes full use of Django&rsquo;s&nbsp;staticfiles&nbsp;app. For more information, see the Django docs for&nbsp;deployment&nbsp;and&nbsp;staticfiles.",
+        "gen_description": true,
+        "created": "2018-12-16T23:52:14.361Z",
+        "updated": "2018-12-17T20:13:20.205Z",
+        "status": 2,
+        "publish_date": "2018-12-16T23:50:57Z",
+        "expiry_date": null,
+        "short_url": "unset",
+        "in_sitemap": true,
+        "content": "<p>Deployment of a Mezzanine site to production is mostly identical to deploying a regular Django site. For serving static content, Mezzanine makes full use of Django&rsquo;s<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">staticfiles</span></code><span>&nbsp;</span>app. For more information, see the Django docs for<span>&nbsp;</span><a class=\"reference external\" href=\"https://docs.djangoproject.com/en/dev/howto/deployment/\">deployment</a><span>&nbsp;</span>and<span>&nbsp;</span><a class=\"reference external\" href=\"https://docs.djangoproject.com/en/dev/howto/static-files/\">staticfiles</a>.</p>\n<div class=\"section\" id=\"fabric\">\n<h3>Fabric<a class=\"headerlink\" href=\"http://mezzanine.jupo.org/docs/deployment.html#fabric\" title=\"Permalink to this headline\"></a></h3>\n<p>Each Mezzanine project comes bundled with utilities for deploying production Mezzanine sites, using<span>&nbsp;</span><a class=\"reference external\" href=\"http://fabfile.org/\">Fabric</a>. The provided<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fabfile.py</span></code><span>&nbsp;</span>contains composable commands that can be used to set up all the system-level requirements on a new<span>&nbsp;</span><a class=\"reference external\" href=\"http://debian.org/\">Debian</a><span>&nbsp;</span>based system, manage each of the project-level virtual environments for initial and continuous deployments, and much more.</p>\n<div class=\"section\" id=\"server-stack\">\n<h3>Server Stack<a class=\"headerlink\" href=\"http://mezzanine.jupo.org/docs/deployment.html#server-stack\" title=\"Permalink to this headline\"></a></h3>\n<p>The deployed stack consists of the following components:</p>\n<blockquote>\n<div>\n<ul class=\"simple\">\n<li><a class=\"reference external\" href=\"http://nginx.org/\">NGINX</a><span>&nbsp;</span>- public facing web server</li>\n<li><a class=\"reference external\" href=\"http://gunicorn.org/\">gunicorn</a><span>&nbsp;</span>- internal HTTP application server</li>\n<li><a class=\"reference external\" href=\"http://postgresql.org/\">PostgreSQL</a><span>&nbsp;</span>- database server</li>\n<li><a class=\"reference external\" href=\"http://memcached.org/\">memcached</a><span>&nbsp;</span>- in-memory caching server</li>\n<li><a class=\"reference external\" href=\"http://supervisord.org/\">supervisord</a><span>&nbsp;</span>- process control and monitor</li>\n<li><a class=\"reference external\" href=\"https://pypi.python.org/pypi/virtualenv\">virtualenv</a><span>&nbsp;</span>- isolated Python environments for each project</li>\n<li><a class=\"reference external\" href=\"http://git-scm.com/\">git</a><span>&nbsp;</span>or<span>&nbsp;</span><a class=\"reference external\" href=\"http://mercurial.selenic.com/\">mercurial</a><span>&nbsp;</span>- version control systems (optional)</li>\n</ul>\n</div>\n</blockquote>\n<div class=\"admonition note\">\n<p class=\"first admonition-title\">NOTE</p>\n<span>&nbsp;</span>\n<p class=\"last\">None of the items listed above are required for deploying Mezzanine, they&rsquo;re simply the components that have been chosen for use in the bundled<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fabfile.py</span></code>. Alternatives such as<span>&nbsp;</span><a class=\"reference external\" href=\"http://httpd.apache.org/\">Apache</a><span>&nbsp;</span>and<span>&nbsp;</span><a class=\"reference external\" href=\"http://www.mysql.com/\">MySQL</a><span>&nbsp;</span>will work fine, but you&rsquo;ll need to take care of setting these up and deploying yourself. Consult the Django documentation for more information on using different<span>&nbsp;</span><a class=\"reference external\" href=\"https://docs.djangoproject.com/en/dev/howto/deployment/\">web</a><span>&nbsp;</span>and<span>&nbsp;</span><a class=\"reference external\" href=\"https://docs.djangoproject.com/en/dev/ref/databases/\">database</a><span>&nbsp;</span>servers.</p>\n</div>\n</div>\n<div class=\"section\" id=\"configuration\">\n<h3>Configuration<a class=\"headerlink\" href=\"http://mezzanine.jupo.org/docs/deployment.html#configuration\" title=\"Permalink to this headline\"></a></h3>\n<p>Configurable variables are implemented in the project&rsquo;s<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">local_settings.py</span></code><span>&nbsp;</span>module. Here&rsquo;s an example, that leverages some existing setting names:</p>\n<div class=\"highlight-default\">\n<div class=\"highlight\">\n<pre><span></span><span class=\"n\">FABRIC</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n    <span class=\"s2\">\"DEPLOY_TOOL\"</span><span class=\"p\">:</span> <span class=\"s2\">\"rsync\"</span><span class=\"p\">,</span>  <span class=\"c1\"># Deploy with \"git\", \"hg\", or \"rsync\"</span>\n    <span class=\"s2\">\"SSH_USER\"</span><span class=\"p\">:</span> <span class=\"s2\">\"server_user\"</span><span class=\"p\">,</span>  <span class=\"c1\"># VPS SSH username</span>\n    <span class=\"s2\">\"HOSTS\"</span><span class=\"p\">:</span> <span class=\"p\">[</span><span class=\"s2\">\"123.123.123.123\"</span><span class=\"p\">],</span>  <span class=\"c1\"># The IP address of your VPS</span>\n    <span class=\"s2\">\"DOMAINS\"</span><span class=\"p\">:</span> <span class=\"p\">[</span><span class=\"s2\">\"example.com\"</span><span class=\"p\">],</span>  <span class=\"c1\"># The domain(s) used by your site</span>\n    <span class=\"s2\">\"REQUIREMENTS_PATH\"</span><span class=\"p\">:</span> <span class=\"s2\">\"requirements.txt\"</span><span class=\"p\">,</span>  <span class=\"c1\"># Project's pip requirements</span>\n    <span class=\"s2\">\"LOCALE\"</span><span class=\"p\">:</span> <span class=\"s2\">\"en_US.UTF-8\"</span><span class=\"p\">,</span>  <span class=\"c1\"># Should end with \".UTF-8\"</span>\n    <span class=\"s2\">\"DB_PASS\"</span><span class=\"p\">:</span> <span class=\"s2\">\"\"</span><span class=\"p\">,</span>  <span class=\"c1\"># Live database password</span>\n    <span class=\"s2\">\"ADMIN_PASS\"</span><span class=\"p\">:</span> <span class=\"s2\">\"\"</span><span class=\"p\">,</span>  <span class=\"c1\"># Live admin user password</span>\n    <span class=\"s2\">\"SECRET_KEY\"</span><span class=\"p\">:</span> <span class=\"n\">SECRET_KEY</span><span class=\"p\">,</span>\n    <span class=\"s2\">\"NEVERCACHE_KEY\"</span><span class=\"p\">:</span> <span class=\"n\">NEVERCACHE_KEY</span><span class=\"p\">,</span>\n<span class=\"p\">}</span>\n</pre>\n</div>\n</div>\n</div>\n<div class=\"section\" id=\"commands\">\n<h3>Commands<a class=\"headerlink\" href=\"http://mezzanine.jupo.org/docs/deployment.html#commands\" title=\"Permalink to this headline\"></a></h3>\n<p>Here&rsquo;s the list of commands provided in a Mezzanine project&rsquo;s<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fabfile.py</span></code>. Consult the<span>&nbsp;</span><a class=\"reference external\" href=\"http://fabfile.org/\">Fabric documentation</a><span>&nbsp;</span>for more information on working with these:</p>\n<blockquote>\n<div>\n<ul class=\"simple\">\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">all</span></code><span>&nbsp;</span>- Installs everything required on a new system and deploy.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">apt</span></code><span>&nbsp;</span>- Installs one or more system packages via apt.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">backup</span></code><span>&nbsp;</span>- Backs up the project database.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">create</span></code><span>&nbsp;</span>- Creates the environment needed to host the project.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">deploy</span></code><span>&nbsp;</span>- Deploy latest version of the project.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">install</span></code><span>&nbsp;</span>- Installs the base system and Python requirements for the entire server.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">manage</span></code><span>&nbsp;</span>- Runs a Django management command.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">pip</span></code><span>&nbsp;</span>- Installs one or more Python packages within the virtual environment.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">psql</span></code><span>&nbsp;</span>- Runs SQL against the project&rsquo;s database.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">python</span></code><span>&nbsp;</span>- Runs Python code in the project&rsquo;s virtual environment, with Django loaded.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">remove</span></code><span>&nbsp;</span>- Blow away the current project.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">restart</span></code><span>&nbsp;</span>- Restart gunicorn worker processes for the project.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">restore</span></code><span>&nbsp;</span>- Restores the project database from a previous backup.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">rollback</span></code><span>&nbsp;</span>- Reverts project state to the last deploy.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">run</span></code><span>&nbsp;</span>- Runs a shell comand on the remote server.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">secure</span></code><span>&nbsp;</span>- Minimal security steps for brand new servers.</li>\n<li><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">sudo</span></code><span>&nbsp;</span>- Runs a command as sudo on the remote server.</li>\n</ul>\n</div>\n</blockquote>\n</div>\n</div>\n<div class=\"section\" id=\"tutorial\">\n<h2>Tutorial<a class=\"headerlink\" href=\"http://mezzanine.jupo.org/docs/deployment.html#tutorial\" title=\"Permalink to this headline\"></a></h2>\n<div class=\"section\" id=\"case-1-deploying-to-a-brand-new-server\">\n<h3>CASE 1: Deploying to a brand new server<a class=\"headerlink\" href=\"http://mezzanine.jupo.org/docs/deployment.html#case-1-deploying-to-a-brand-new-server\" title=\"Permalink to this headline\"></a></h3>\n<ol class=\"arabic simple\">\n<li>Get your server. Anything that grants you root access works. VPSes like those from Digital Ocean work great and are cheap.</li>\n<li>Fill the<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">FABRIC</span></code><span>&nbsp;</span>settings in<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">local_settings.py</span></code><span>&nbsp;</span>as shown in the<span>&nbsp;</span><a class=\"reference internal\" href=\"http://mezzanine.jupo.org/docs/deployment.html#configuration\">Configuration</a><span>&nbsp;</span>section above. For<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">SSH_USER</span></code><span>&nbsp;</span>provide any username you want (not root), and the fabfile will create it for you.</li>\n<li>Run<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">secure</span></code>. You simply need to know the root password to your VPS. The new user will be created and you can SSH with that from now on (if needed). For security reasons, root login via SSH is disabled by this task.</li>\n<li>Run<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">all</span></code>. It will take a while to install the required environment, but after that, your Mezzanine site will be live.</li>\n</ol>\n<p>Notice that not even once you had to manually SSH into your VPS.<span>&nbsp;</span><em>Note: some server providers (like Digital Ocean) require you to login as root once to change the default password. It should be the only time you are required to SSH into the server.</em></p>\n</div>\n<div class=\"section\" id=\"case-2-deploying-to-an-existing-server\">\n<h3>CASE 2: Deploying to an existing server<a class=\"headerlink\" href=\"http://mezzanine.jupo.org/docs/deployment.html#case-2-deploying-to-an-existing-server\" title=\"Permalink to this headline\"></a></h3>\n<p>If you already have a server, and you already have created a non-root user with sudo privileges:</p>\n<ol class=\"arabic simple\">\n<li>Fill the<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">FABRIC</span></code><span>&nbsp;</span>settings in<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">local_settings.py</span></code><span>&nbsp;</span>as shown in the<span>&nbsp;</span><a class=\"reference internal\" href=\"http://mezzanine.jupo.org/docs/deployment.html#configuration\">Configuration</a><span>&nbsp;</span>section above. For<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">SSH_USER</span></code><span>&nbsp;</span>provide the user with sudo privileges.</li>\n<li>Run<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">install</span></code><span>&nbsp;</span>to install system-wide requirements.</li>\n<li>Run<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">deploy</span></code><span>&nbsp;</span>to deploy your project.</li>\n</ol>\n</div>\n<div class=\"section\" id=\"deploying-more-than-one-site-to-the-server\">\n<h3>Deploying more than one site to the server<a class=\"headerlink\" href=\"http://mezzanine.jupo.org/docs/deployment.html#deploying-more-than-one-site-to-the-server\" title=\"Permalink to this headline\"></a></h3>\n<p>After you have completed your first deployment, for all subsequent deployments in the same server (either new sites or updates to your existing sites) you only need to run<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">deploy</span></code>.</p>\n</div>\n<div class=\"section\" id=\"fixing-bugs-pushed-by-accident-to-the-server\">\n<h3>Fixing bugs pushed by accident to the server<a class=\"headerlink\" href=\"http://mezzanine.jupo.org/docs/deployment.html#fixing-bugs-pushed-by-accident-to-the-server\" title=\"Permalink to this headline\"></a></h3>\n<ol class=\"arabic simple\">\n<li>Run<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">rollback</span></code>. This will roll back your project files, database, and static files to how they were in the last (working) deployment.</li>\n<li>Work on the fixes in your development machine.</li>\n<li>Run<span>&nbsp;</span><code class=\"docutils literal\"><span class=\"pre\">fab</span><span>&nbsp;</span><span class=\"pre\">deploy</span></code><span>&nbsp;</span>to push your fixes to production.</li>\n</ol>\n</div>\n</div>",
+        "user": [
+            "admin"
+        ],
+        "allow_comments": true,
+        "featured_image": "uploads/blog/mountainyosemite.jpg",
+        "categories": [
+            5,
+            4,
+            3
+        ],
+        "related_posts": []
+    }
+},
+{
+    "model": "blog.blogpost",
+    "pk": 3,
+    "fields": {
+        "retina": "",
+        "comments_count": 0,
+        "keywords_string": "",
+        "rating_count": 0,
+        "rating_sum": 0,
+        "rating_average": 0.0,
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "Tuples",
+        "slug": "tuples",
+        "_meta_title": null,
+        "description": "Tuple are a sequence of immutable Python objects. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.",
+        "gen_description": true,
+        "created": "2018-12-16T23:55:40.629Z",
+        "updated": "2018-12-17T21:08:57.612Z",
+        "status": 2,
+        "publish_date": "2018-12-16T23:55:23Z",
+        "expiry_date": null,
+        "short_url": "unset",
+        "in_sitemap": true,
+        "content": "<p>Tuple are a sequence of immutable Python objects. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.</p>\n<p>Creating a tuple is as simple as putting different comma-separated values. Optionally you can put these comma-separated values between parentheses also. For example &minus;</p>\n<pre class=\"result notranslate\">tup1 = ('physics', 'chemistry', 1997, 2000);\ntup2 = (1, 2, 3, 4, 5 );\ntup3 = \"a\", \"b\", \"c\", \"d\";\n</pre>\n<p>The empty tuple is written as two parentheses containing nothing &minus;</p>\n<pre class=\"result notranslate\">tup1 = ();\n</pre>\n<p>To write a tuple containing a single value you have to include a comma, even though there is only one value &minus;</p>\n<pre class=\"result notranslate\">tup1 = (50,);\n</pre>\n<p>Like string indices, tuple indices start at 0, and they can be sliced, concatenated, and so on.</p>\n<h2>Accessing Values in Tuples</h2>\n<p>To access values in tuple, use the square brackets for slicing along with the index or indices to obtain value available at that index. For example &minus;</p>\n<p><a class=\"demo\" href=\"http://tpcg.io/ZnuXed\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa-external-link\"></i><span>&nbsp;</span>Live Demo</a></p>\n<pre class=\"prettyprint notranslate prettyprinted\"><span class=\"com\">#!/usr/bin/python</span><span class=\"pln\">\n\ntup1 </span><span class=\"pun\">=</span><span class=\"pln\"> </span><span class=\"pun\">(</span><span class=\"str\">'physics'</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"str\">'chemistry'</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">1997</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">2000</span><span class=\"pun\">);</span><span class=\"pln\">\ntup2 </span><span class=\"pun\">=</span><span class=\"pln\"> </span><span class=\"pun\">(</span><span class=\"lit\">1</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">2</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">3</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">4</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">5</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">6</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">7</span><span class=\"pln\"> </span><span class=\"pun\">);</span><span class=\"pln\">\n</span><span class=\"kwd\">print</span><span class=\"pln\"> </span><span class=\"str\">\"tup1[0]: \"</span><span class=\"pun\">,</span><span class=\"pln\"> tup1</span><span class=\"pun\">[</span><span class=\"lit\">0</span><span class=\"pun\">];</span><span class=\"pln\">\n</span><span class=\"kwd\">print</span><span class=\"pln\"> </span><span class=\"str\">\"tup2[1:5]: \"</span><span class=\"pun\">,</span><span class=\"pln\"> tup2</span><span class=\"pun\">[</span><span class=\"lit\">1</span><span class=\"pun\">:</span><span class=\"lit\">5</span><span class=\"pun\">];</span></pre>\n<p>When the above code is executed, it produces the following result &minus;</p>\n<pre class=\"result notranslate\">tup1[0]:  physics\ntup2[1:5]:  [2, 3, 4, 5]\n</pre>\n<h2>Updating Tuples</h2>\n<p>Tuples are immutable which means you cannot update or change the values of tuple elements. You are able to take portions of existing tuples to create new tuples as the following example demonstrates &minus;</p>\n<p><a class=\"demo\" href=\"http://tpcg.io/QjdQHf\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa-external-link\"></i><span>&nbsp;</span>Live Demo</a></p>\n<pre class=\"prettyprint notranslate prettyprinted\"><span class=\"com\">#!/usr/bin/python</span><span class=\"pln\">\n\ntup1 </span><span class=\"pun\">=</span><span class=\"pln\"> </span><span class=\"pun\">(</span><span class=\"lit\">12</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">34.56</span><span class=\"pun\">);</span><span class=\"pln\">\ntup2 </span><span class=\"pun\">=</span><span class=\"pln\"> </span><span class=\"pun\">(</span><span class=\"str\">'abc'</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"str\">'xyz'</span><span class=\"pun\">);</span><span class=\"pln\">\n\n</span><span class=\"com\"># Following action is not valid for tuples</span><span class=\"pln\">\n</span><span class=\"com\"># tup1[0] = 100;</span><span class=\"pln\">\n\n</span><span class=\"com\"># So let's create a new tuple as follows</span><span class=\"pln\">\ntup3 </span><span class=\"pun\">=</span><span class=\"pln\"> tup1 </span><span class=\"pun\">+</span><span class=\"pln\"> tup2</span><span class=\"pun\">;</span><span class=\"pln\">\n</span><span class=\"kwd\">print</span><span class=\"pln\"> tup3</span><span class=\"pun\">;</span></pre>\n<p>When the above code is executed, it produces the following result &minus;</p>\n<pre class=\"result notranslate\">(12, 34.56, 'abc', 'xyz')\n</pre>\n<h2>Delete Tuple Elements</h2>\n<p>Removing individual tuple elements is not possible. There is, of course, nothing wrong with putting together another tuple with the undesired elements discarded.</p>\n<p>To explicitly remove an entire tuple, just use the<span>&nbsp;</span><b>del</b><span>&nbsp;</span>statement. For example &minus;</p>\n<p><a class=\"demo\" href=\"http://tpcg.io/ANv9OB\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa-external-link\"></i><span>&nbsp;</span>Live Demo</a></p>\n<pre class=\"prettyprint notranslate prettyprinted\"><span class=\"com\">#!/usr/bin/python</span><span class=\"pln\">\n\ntup </span><span class=\"pun\">=</span><span class=\"pln\"> </span><span class=\"pun\">(</span><span class=\"str\">'physics'</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"str\">'chemistry'</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">1997</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">2000</span><span class=\"pun\">);</span><span class=\"pln\">\n</span><span class=\"kwd\">print</span><span class=\"pln\"> tup</span><span class=\"pun\">;</span><span class=\"pln\">\n</span><span class=\"kwd\">del</span><span class=\"pln\"> tup</span><span class=\"pun\">;</span><span class=\"pln\">\n</span><span class=\"kwd\">print</span><span class=\"pln\"> </span><span class=\"str\">\"After deleting tup : \"</span><span class=\"pun\">;</span><span class=\"pln\">\n</span><span class=\"kwd\">print</span><span class=\"pln\"> tup</span><span class=\"pun\">;</span></pre>\n<p>This produces the following result. Note an exception raised, this is because after<span>&nbsp;</span><b>del tup</b><span>&nbsp;</span>tuple does not exist any more &minus;</p>\n<pre class=\"result notranslate\">('physics', 'chemistry', 1997, 2000)\nAfter deleting tup :\nTraceback (most recent call last):\n   File \"test.py\", line 9, in &lt;module&gt;\n      print tup;\nNameError: name 'tup' is not defined\n</pre>\n<h2>Basic Tuples Operations</h2>\n<p>Tuples respond to the + and * operators much like strings; they mean concatenation and repetition here too, except that the result is a new tuple, not a string.</p>\n<p>In fact, tuples respond to all of the general sequence operations we used on strings in the prior chapter &minus;</p>\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<th>Python Expression</th>\n<th>Results</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>len((1, 2, 3))</td>\n<td>3</td>\n<td>Length</td>\n</tr>\n<tr>\n<td>(1, 2, 3) + (4, 5, 6)</td>\n<td>(1, 2, 3, 4, 5, 6)</td>\n<td>Concatenation</td>\n</tr>\n<tr>\n<td>('Hi!',) * 4</td>\n<td>('Hi!', 'Hi!', 'Hi!', 'Hi!')</td>\n<td>Repetition</td>\n</tr>\n<tr>\n<td>3 in (1, 2, 3)</td>\n<td>True</td>\n<td>Membership</td>\n</tr>\n<tr>\n<td>for x in (1, 2, 3): print x,</td>\n<td>1 2 3</td>\n<td>Iteration</td>\n</tr>\n</tbody>\n</table>\n<h2>Indexing, Slicing, and Matrixes</h2>\n<p>Because tuples are sequences, indexing and slicing work the same way for tuples as they do for strings. Assuming following input &minus;</p>\n<pre class=\"prettyprint notranslate prettyprinted\"><span class=\"pln\">L </span><span class=\"pun\">=</span><span class=\"pln\"> </span><span class=\"pun\">(</span><span class=\"str\">'spam'</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"str\">'Spam'</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"str\">'SPAM!'</span><span class=\"pun\">)</span></pre>\n<p>&nbsp;</p>\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<th>Python Expression</th>\n<th>Results</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>L[2]</td>\n<td>'SPAM!'</td>\n<td>Offsets start at zero</td>\n</tr>\n<tr>\n<td class=\"ts\">L[-2]</td>\n<td class=\"ts\">'Spam'</td>\n<td>Negative: count from the right</td>\n</tr>\n<tr>\n<td>L[1:]</td>\n<td>['Spam', 'SPAM!']</td>\n<td>Slicing fetches sections</td>\n</tr>\n</tbody>\n</table>\n<h2>No Enclosing Delimiters</h2>\n<p>Any set of multiple objects, comma-separated, written without identifying symbols, i.e., brackets for lists, parentheses for tuples, etc., default to tuples, as indicated in these short examples &minus;</p>\n<p><a class=\"demo\" href=\"http://tpcg.io/TO4E3c\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa-external-link\"></i><span>&nbsp;</span>Live Demo</a></p>\n<pre class=\"prettyprint notranslate prettyprinted\"><span class=\"com\">#!/usr/bin/python</span><span class=\"pln\">\n\n</span><span class=\"kwd\">print</span><span class=\"pln\"> </span><span class=\"str\">'abc'</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"pun\">-</span><span class=\"lit\">4.24e93</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">18</span><span class=\"pun\">+</span><span class=\"lit\">6.6j</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"str\">'xyz'</span><span class=\"pun\">;</span><span class=\"pln\">\nx</span><span class=\"pun\">,</span><span class=\"pln\"> y </span><span class=\"pun\">=</span><span class=\"pln\"> </span><span class=\"lit\">1</span><span class=\"pun\">,</span><span class=\"pln\"> </span><span class=\"lit\">2</span><span class=\"pun\">;</span><span class=\"pln\">\n</span><span class=\"kwd\">print</span><span class=\"pln\"> </span><span class=\"str\">\"Value of x , y : \"</span><span class=\"pun\">,</span><span class=\"pln\"> x</span><span class=\"pun\">,</span><span class=\"pln\">y</span><span class=\"pun\">;</span></pre>\n<p>When the above code is executed, it produces the following result &minus;</p>\n<pre class=\"result notranslate\">abc -4.24e+93 (18+6.6j) xyz\nValue of x , y : 1 2\n</pre>\n<h2>Built-in Tuple Functions</h2>\n<p>Python includes the following tuple functions &minus;</p>\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<th>Sr.No.</th>\n<th>Function with Description</th>\n</tr>\n<tr>\n<td class=\"ts\">1</td>\n<td><a href=\"https://www.tutorialspoint.com/python/tuple_cmp.htm\">cmp(tuple1, tuple2)</a>\n<p>Compares elements of both tuples.</p>\n</td>\n</tr>\n<tr>\n<td class=\"ts\">2</td>\n<td><a href=\"https://www.tutorialspoint.com/python/tuple_len.htm\">len(tuple)</a>\n<p>Gives the total length of the tuple.</p>\n</td>\n</tr>\n<tr>\n<td class=\"ts\">3</td>\n<td><a href=\"https://www.tutorialspoint.com/python/tuple_max.htm\">max(tuple)</a>\n<p>Returns item from the tuple with max value.</p>\n</td>\n</tr>\n<tr>\n<td class=\"ts\">4</td>\n<td><a href=\"https://www.tutorialspoint.com/python/tuple_min.htm\">min(tuple)</a>\n<p>Returns item from the tuple with min value.</p>\n</td>\n</tr>\n<tr>\n<td class=\"ts\">5</td>\n<td><a href=\"https://www.tutorialspoint.com/python/tuple_tuple.htm\">tuple(seq)</a>\n<p>Converts a list into tuple.</p>\n</td>\n</tr>\n</tbody>\n</table>",
+        "user": [
+            "admin"
+        ],
+        "allow_comments": true,
+        "featured_image": "uploads/blog/mike-szczepanski-383929-unsplash.jpg",
+        "categories": [
+            1
+        ],
+        "related_posts": []
+    }
+},
+{
+    "model": "blog.blogcategory",
+    "pk": 1,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "python",
+        "slug": "python"
+    }
+},
+{
+    "model": "blog.blogcategory",
+    "pk": 2,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "regex",
+        "slug": "regex"
+    }
+},
+{
+    "model": "blog.blogcategory",
+    "pk": 3,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "mezzanine",
+        "slug": "mezzanine"
+    }
+},
+{
+    "model": "blog.blogcategory",
+    "pk": 4,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "fabric",
+        "slug": "fabric"
+    }
+},
+{
+    "model": "blog.blogcategory",
+    "pk": 5,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "title": "django",
+        "slug": "django"
+    }
+},
+{
+    "model": "forms.form",
+    "pk": 4,
+    "fields": {
+        "content": "<p>If you want to get in touch then fill the form below</p>\n<p></p>",
+        "button_text": "Send",
+        "response": "<p>Thanks for contacting me - I'll get back to you soon.</p>",
+        "send_email": false,
+        "email_from": "sheltonspencertest@gmail.com",
+        "email_copies": "sheltonspencertest@gmail.com",
+        "email_subject": "contact form submission from blog",
+        "email_message": "new submission here is the info:"
+    }
+},
+{
+    "model": "forms.field",
+    "pk": 1,
+    "fields": {
+        "_order": 0,
+        "label": "Name",
+        "field_type": 1,
+        "required": true,
+        "visible": true,
+        "choices": "",
+        "default": "",
+        "placeholder_text": "First name",
+        "help_text": "",
+        "form": 4
+    }
+},
+{
+    "model": "forms.field",
+    "pk": 2,
+    "fields": {
+        "_order": 1,
+        "label": "Email",
+        "field_type": 3,
+        "required": true,
+        "visible": true,
+        "choices": "",
+        "default": "",
+        "placeholder_text": "Email",
+        "help_text": "",
+        "form": 4
+    }
+},
+{
+    "model": "forms.field",
+    "pk": 3,
+    "fields": {
+        "_order": 2,
+        "label": "Message",
+        "field_type": 2,
+        "required": true,
+        "visible": true,
+        "choices": "",
+        "default": "",
+        "placeholder_text": "Message",
+        "help_text": "",
+        "form": 4
+    }
+},
+{
+    "model": "forms.formentry",
+    "pk": 1,
+    "fields": {
+        "form": 4,
+        "entry_time": "2018-12-16T20:58:49.611Z"
+    }
+},
+{
+    "model": "forms.formentry",
+    "pk": 2,
+    "fields": {
+        "form": 4,
+        "entry_time": "2018-12-16T20:59:46.342Z"
+    }
+},
+{
+    "model": "forms.formentry",
+    "pk": 3,
+    "fields": {
+        "form": 4,
+        "entry_time": "2018-12-16T21:14:10.740Z"
+    }
+},
+{
+    "model": "forms.formentry",
+    "pk": 4,
+    "fields": {
+        "form": 4,
+        "entry_time": "2018-12-16T21:18:59.852Z"
+    }
+},
+{
+    "model": "forms.formentry",
+    "pk": 5,
+    "fields": {
+        "form": 4,
+        "entry_time": "2018-12-16T21:20:15.994Z"
+    }
+},
+{
+    "model": "forms.formentry",
+    "pk": 6,
+    "fields": {
+        "form": 4,
+        "entry_time": "2018-12-16T23:12:59.197Z"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 1,
+    "fields": {
+        "entry": 1,
+        "field_id": 1,
+        "value": "spencer"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 2,
+    "fields": {
+        "entry": 1,
+        "field_id": 2,
+        "value": "sbarriball@me.com"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 3,
+    "fields": {
+        "entry": 1,
+        "field_id": 3,
+        "value": "wswsws"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 4,
+    "fields": {
+        "entry": 2,
+        "field_id": 1,
+        "value": "spencer"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 5,
+    "fields": {
+        "entry": 2,
+        "field_id": 2,
+        "value": "sbarriball@me.com"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 6,
+    "fields": {
+        "entry": 2,
+        "field_id": 3,
+        "value": "wwdwdd"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 7,
+    "fields": {
+        "entry": 3,
+        "field_id": 1,
+        "value": "spencer"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 8,
+    "fields": {
+        "entry": 3,
+        "field_id": 2,
+        "value": "sbarriball@me.com"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 9,
+    "fields": {
+        "entry": 3,
+        "field_id": 3,
+        "value": "uwhuwh"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 10,
+    "fields": {
+        "entry": 4,
+        "field_id": 1,
+        "value": "spencer"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 11,
+    "fields": {
+        "entry": 4,
+        "field_id": 2,
+        "value": "sbarriball@me.com"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 12,
+    "fields": {
+        "entry": 4,
+        "field_id": 3,
+        "value": "here is a message dem ofrom site"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 13,
+    "fields": {
+        "entry": 5,
+        "field_id": 1,
+        "value": "spencer"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 14,
+    "fields": {
+        "entry": 5,
+        "field_id": 2,
+        "value": "sbarriball@me.com"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 15,
+    "fields": {
+        "entry": 5,
+        "field_id": 3,
+        "value": "this one may work hopefully"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 16,
+    "fields": {
+        "entry": 6,
+        "field_id": 1,
+        "value": "spencer"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 17,
+    "fields": {
+        "entry": 6,
+        "field_id": 2,
+        "value": "sbarriball@me.com"
+    }
+},
+{
+    "model": "forms.fieldentry",
+    "pk": 18,
+    "fields": {
+        "entry": 6,
+        "field_id": 3,
+        "value": "another message"
+    }
+},
+{
+    "model": "twitter.query",
+    "pk": 1,
+    "fields": {
+        "type": "search",
+        "value": "from:stephen_mcd mezzanine",
+        "interested": true
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2018-12-16T19:19:30.422Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "page"
+        ],
+        "object_id": "1",
+        "object_repr": "Blog",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2018-12-16T19:23:02.069Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogcategory"
+        ],
+        "object_id": "1",
+        "object_repr": "python",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2018-12-16T19:23:09.746Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogcategory"
+        ],
+        "object_id": "2",
+        "object_repr": "regex",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2018-12-16T19:23:23.089Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "1",
+        "object_repr": "Regex Cheat Sheet",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2018-12-16T19:26:14.336Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "richtextpage"
+        ],
+        "object_id": "2",
+        "object_repr": "Home",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2018-12-16T19:26:38.143Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "richtextpage"
+        ],
+        "object_id": "2",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"slug\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2018-12-16T19:38:04.960Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "richtextpage"
+        ],
+        "object_id": "3",
+        "object_repr": "About",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2018-12-16T19:38:12.882Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "richtextpage"
+        ],
+        "object_id": "3",
+        "object_repr": "About",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_menus\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2018-12-16T19:38:23.206Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "richtextpage"
+        ],
+        "object_id": "2",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_menus\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2018-12-16T20:40:54.240Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "forms",
+            "form"
+        ],
+        "object_id": "4",
+        "object_repr": "Contact",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Field\", \"object\": \"name\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2018-12-16T20:42:50.204Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "forms",
+            "form"
+        ],
+        "object_id": "4",
+        "object_repr": "Contact",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"keywords\"]}}, {\"added\": {\"name\": \"Field\", \"object\": \"Email\"}}, {\"added\": {\"name\": \"Field\", \"object\": \"Message\"}}, {\"changed\": {\"name\": \"Field\", \"object\": \"Name\", \"fields\": [\"label\", \"placeholder_text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2018-12-16T21:18:40.409Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "forms",
+            "form"
+        ],
+        "object_id": "4",
+        "object_repr": "Contact",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"email_from\", \"email_copies\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2018-12-16T23:36:52.696Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "forms",
+            "form"
+        ],
+        "object_id": "4",
+        "object_repr": "Contact",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2018-12-16T23:39:36.485Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "forms",
+            "form"
+        ],
+        "object_id": "4",
+        "object_repr": "Contact",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2018-12-16T23:40:15.046Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "forms",
+            "form"
+        ],
+        "object_id": "4",
+        "object_repr": "Contact",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2018-12-16T23:50:28.645Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogcategory"
+        ],
+        "object_id": "3",
+        "object_repr": "mezzanine",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2018-12-16T23:50:44.629Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogcategory"
+        ],
+        "object_id": "4",
+        "object_repr": "fabric",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2018-12-16T23:50:51.537Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogcategory"
+        ],
+        "object_id": "5",
+        "object_repr": "django",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2018-12-16T23:52:14.367Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "2",
+        "object_repr": "Deploying Django Mezzanine Using Fabric",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2018-12-16T23:55:40.634Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "3",
+        "object_repr": "Tuples",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2018-12-17T00:26:56.690Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "richtextpage"
+        ],
+        "object_id": "2",
+        "object_repr": "Home",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2018-12-17T11:53:17.642Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "forms",
+            "form"
+        ],
+        "object_id": "4",
+        "object_repr": "Contact",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\", \"id\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2018-12-17T12:24:25.275Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "3",
+        "object_repr": "Tuples",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"featured_image\", \"content\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2018-12-17T15:49:10.373Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "1",
+        "object_repr": "Regex Cheat Sheet",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"featured_image\", \"content\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2018-12-17T15:57:47.441Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "1",
+        "object_repr": "Regex Cheat Sheet",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"retina\", \"content\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2018-12-17T16:09:07.804Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "1",
+        "object_repr": "Regex Cheat Sheet",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2018-12-17T16:10:44.731Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "2",
+        "object_repr": "Deploying Django Mezzanine Using Fabric",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"featured_image\", \"retina\", \"content\", \"description\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2018-12-17T17:16:09.769Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "3",
+        "object_repr": "Tuples",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\", \"id\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2018-12-17T20:13:20.225Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "2",
+        "object_repr": "Deploying Django Mezzanine Using Fabric",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\", \"id\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2018-12-17T20:13:36.137Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "1",
+        "object_repr": "Regex Cheat Sheet",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\", \"id\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2018-12-17T20:24:41.985Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "blogpost"
+        ],
+        "object_id": "1",
+        "object_repr": "Regex Cheat Sheet",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"publish_date\", \"content\", \"keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2018-12-17T21:08:57.591Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "generic",
+            "threadedcomment"
+        ],
+        "object_id": "1",
+        "object_repr": "admin: here is a first comment...",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]

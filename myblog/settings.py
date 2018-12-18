@@ -57,25 +57,25 @@ from django.utils.translation import ugettext_lazy as _
 # field instance. When specifying the field class, the path
 # ``django.models.db.`` can be omitted for regular Django model fields.
 #
-# EXTRA_MODEL_FIELDS = (
-#     (
-#         # Dotted path to field.
-#         "mezzanine.blog.models.BlogPost.image",
-#         # Dotted path to field class.
-#         "somelib.fields.ImageField",
-#         # Positional args for field class.
-#         (_("Image"),),
-#         # Keyword args for field class.
-#         {"blank": True, "upload_to": "blog"},
-#     ),
-#     # Example of adding a field to *all* of Mezzanine's content types:
-#     (
-#         "mezzanine.pages.models.Page.another_field",
-#         "IntegerField", # 'django.db.models.' is implied if path is omitted.
-#         (_("Another name"),),
-#         {"blank": True, "default": 1},
-#     ),
-# )
+EXTRA_MODEL_FIELDS = (
+    (
+        # Dotted path to field.
+        "mezzanine.blog.models.BlogPost.retina",
+        # Dotted path to field class.
+        "ImageField",
+        # Positional args for field class.
+        (_("Retina_Image"),),
+        # Keyword args for field class.
+        {"blank": True, "upload_to": "uploads/blog"},
+    ),
+    # Example of adding a field to *all* of Mezzanine's content types:
+    # (
+    #     "mezzanine.pages.models.Page.another_field",
+    #     "IntegerField", # 'django.db.models.' is implied if path is omitted.
+    #     (_("Another name"),),
+    #     {"blank": True, "default": 1},
+    # ),
+)
 
 # Setting to turn on featured images for blog posts. Defaults to False.
 #
@@ -347,5 +347,6 @@ else:
 # CUSTOM SETTINGS  #
 ####################
 FORMS_USE_HTML5 = True
-
-
+COMMENTS_USE_RATINGS = False
+BLOG_USE_FEATURED_IMAGE = True
+TINYMCE_SETUP_JS = "tinymce_setup.js"

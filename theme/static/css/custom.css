@@ -5,3 +5,25 @@
 .floating-label-form-group input, .floating-label-form-group textarea {
     width: 100%;
 }
+
+.site-heading .meta a {
+    color: #ffffff;
+}
+
+#comment .floating-label-form-group label {
+    opacity: 1;
+    font-size: 20px;
+    top: 0;
+}
+
+#comment .floating-label-form-group input, #comment .floating-label-form-group textarea {
+    width: 100%;
+}
+
+#mainNav.is-visible {
+    border-bottom: 2px solid #1b1e21;
+}
+
+.blog-filters {
+    margin-bottom: 40px;
+}
