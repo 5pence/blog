@@ -13,6 +13,7 @@ Fabric3==1.14.post1
 filebrowser-safe==0.5.0
 future==0.17.1
 grappelli-safe==0.5.1
+gunicorn==19.9.0
 idna==2.8
 Mezzanine==4.3.1
 oauthlib==2.1.0
