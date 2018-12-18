@@ -4,7 +4,7 @@ import os
 
 from django import VERSION as DJANGO_VERSION
 from django.utils.translation import ugettext_lazy as _
-
+import dj_database_url
 
 ######################
 # MEZZANINE SETTINGS #
@@ -25,7 +25,7 @@ from django.utils.translation import ugettext_lazy as _
 #     ("Site", ("sites.Site", "redirects.Redirect", "conf.Setting")),
 #     ("Users", ("auth.User", "auth.Group",)),
 # )
-
+SECRET_KEY = os.environ.get("SECRET_KEY")
 # A three item sequence, each containing a sequence of template tags
 # used to render the admin dashboard.
 #
@@ -34,7 +34,7 @@ from django.utils.translation import ugettext_lazy as _
 #     ("comment_tags.recent_comments",),
 #     ("mezzanine_tags.recent_actions",),
 # )
-
+ALLOWED_HOSTS = ['127.0.0.1', 'fivepenceblog.herokuapp.com', '5pence.net', 'www.5pence.net']
 # A sequence of templates used by the ``page_menu`` template tag. Each
 # item in the sequence is a three item sequence, containing a unique ID
 # for the template, a label for the template, and the template path.
@@ -92,7 +92,7 @@ USE_MODELTRANSLATION = False
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = []
+
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -141,20 +141,7 @@ FILE_UPLOAD_PERMISSIONS = 0o644
 #############
 
 DATABASES = {
-    "default": {
-        # Add "postgresql_psycopg2", "mysql", "sqlite3" or "oracle".
-        "ENGINE": "django.db.backends.",
-        # DB name or path to database file if using sqlite3.
-        "NAME": "",
-        # Not used with sqlite3.
-        "USER": "",
-        # Not used with sqlite3.
-        "PASSWORD": "",
-        # Set to empty string for localhost. Not used with sqlite3.
-        "HOST": "",
-        # Set to empty string for default. Not used with sqlite3.
-        "PORT": "",
-    }
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 
